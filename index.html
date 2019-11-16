@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>checkpoint3</title>
+  </head>
+  <body>
+    <div class="plan">
+      <div id="calc">
+        <h3>CALCULATRICE JS</h3>
+        <div class="textarea" id="formul" placeholder="0"></div>
+        <br />
+        <div
+          class="textarea"
+          id="result"
+          placeholder="0"
+          readonly
+          maxlength="20"
+        ></div>
+        <br />
+        <div id="boutton">
+          <button onclick="button(7)" id="7">7</button>
+          <button onclick="button(8)" id="8">8</button>
+          <button onclick="button(9)" id="9">9</button>
+          <button onclick="division()" id="division">/</button>
+          <br />
+          <button onclick="button(4)" id="4">4</button>
+          <button onclick="button(5)" id="5">5</button>
+          <button onclick="button(6)" id="6">6</button>
+          <button onclick="mul()" id="mul">*</button>
+          <br />
+          <button onclick="button(1)" id="1">1</button>
+          <button onclick="button(2)" id="2">2</button>
+          <button onclick="button(3)" id="3">3</button>
+          <button onclick="neg()" id="neg">-</button>
+          <br />
+          <button onclick="button(0)" id="0">0</button>
+          <button onclick="raz()" id="raz">ras</button>
+          <button onclick="equal()" id="equal">=</button>
+          <button onclick="pos()" id="pos">+</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="js/main.js"></script>
+</html>

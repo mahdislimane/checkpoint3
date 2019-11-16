@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.plan {
+  height: 656px;
+  width: 100%;
+  background-color: rgba(8, 29, 68, 0.89);
+  padding-top: 1px;
+}
+#calc {
+  height: 320px;
+  width: 250px;
+  margin-left: 40%;
+  margin-top: 100px;
+  border-style: outset;
+  border-width: 2px;
+  background-color: rgba(19, 60, 170, 0.801);
+}
+#calc button {
+  height: 54px;
+  width: 52px;
+  font-size: 100%;
+  font-weight: bold;
+  background-color: rgb(204, 191, 3);
+}
+#boutton {
+  padding-top: 10px;
+  padding-left: 15px;
+}
+#calc .textarea {
+  width: 223px;
+  height: 20px;
+  margin-left: 13px;
+  text-align: right;
+  margin-top: -4px;
+  margin-bottom: -15px;
+  font-weight: bold;
+  border: none;
+  background-color: burlywood;
+}
+#calc h3 {
+  padding-left: 15px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 1.45em;
+}
