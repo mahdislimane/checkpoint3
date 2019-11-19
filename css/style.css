@@ -10,7 +10,7 @@
 }
 #calc {
   height: 320px;
-  width: 250px;
+  width: 600px;
   margin-left: 40%;
   margin-top: 100px;
   border-style: outset;
@@ -44,4 +44,38 @@
   padding-bottom: 10px;
   padding-top: 10px;
   font-size: 1.45em;
+}
+#history {
+  position: absolute;
+  display: flex;
+  height: 215px;
+  width: 150px;
+  background-color: burlywood;
+  margin-left: 227px;
+  margin-top: -55px;
+}
+#test {
+  position: absolute;
+  display: flex;
+  height: 215px;
+  width: 150px;
+  background-color: burlywood;
+  margin-left: 427px;
+  margin-top: 26px;
+}
+#aff {
+  position: absolute;
+  padding-left: 250px;
+  padding-top: 50px;
+  font-weight: bolder;
+  text-decoration: underline;
+  font-size: 1.5em;
+}
+#tab {
+  position: absolute;
+  padding-left: 440px;
+  padding-top: 50px;
+  font-weight: bolder;
+  text-decoration: underline;
+  font-size: 1.5em;
 }
