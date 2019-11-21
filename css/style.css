@@ -10,8 +10,8 @@
 }
 #calc {
   height: 320px;
-  width: 600px;
-  margin-left: 40%;
+  width: 650px;
+  margin-left: 27%;
   margin-top: 100px;
   border-style: outset;
   border-width: 2px;
@@ -49,32 +49,34 @@
   position: absolute;
   display: flex;
   height: 215px;
-  width: 150px;
+  width: 180px;
   background-color: burlywood;
-  margin-left: 227px;
+  margin-left: 230px;
   margin-top: -55px;
+  overflow: auto;
 }
 #test {
   position: absolute;
   display: flex;
   height: 215px;
-  width: 150px;
+  width: 200px;
   background-color: burlywood;
-  margin-left: 427px;
+  margin-left: 440px;
   margin-top: 26px;
+  overflow: auto;
 }
 #aff {
   position: absolute;
-  padding-left: 250px;
-  padding-top: 50px;
+  padding-left: 260px;
+  padding-top: 40px;
   font-weight: bolder;
   text-decoration: underline;
   font-size: 1.5em;
 }
 #tab {
   position: absolute;
-  padding-left: 440px;
-  padding-top: 50px;
+  padding-left: 450px;
+  padding-top: 10px;
   font-weight: bolder;
   text-decoration: underline;
   font-size: 1.5em;
